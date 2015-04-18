@@ -1,1 +1,111 @@
-<a href="/auth/instagram">Login with Instagram</a>
+<!DOCTYPE html>
+<head>
+<title>Let's connect!</title>
+
+<style type="text/css">
+
+p#login{
+	font-size: 32pt;
+	font-family: Tw Cen MT;
+	color: white;
+	float: center;
+	text-align: center;
+}
+
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: left top;
+	background-image: url("http://www.inkspotcreative.com/wp-content/uploads/2013/07/blurred-background-7.jpg");
+	background-repeat: no-repeat;
+}
+
+img:hover {
+	opacity: 0.7;
+	cursor: pointer;
+
+}
+
+
+.icons{
+	margin-top: 15%;
+	text-align:center;
+}
+
+.insta {
+	float: center;
+	margin-right: 5px; 
+	margin-left: auto; 
+	margin-top: 1%; 
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+
+.fb {
+	float: center; 
+	width: 256px; 
+	margin-left: 5px;
+	margin-right: 1%; 
+	margin-top: 1%; 
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+
+.insta .cap1,
+.fb .cap2 	 {
+	opacity: 0;
+	
+}
+
+.insta:hover .cap1 {
+	opacity: 1;
+	color: white;
+	text-align: left;
+	font-size: 14pt;
+	font-family: Tw Cen MT;
+	position: relative;
+	left: 50px;
+	top: 500px;
+}
+
+.fb:hover .cap2 {
+	opacity: 1;
+	color: white;
+	text-align: left;
+	font-size: 14pt;
+	font-family: Tw Cen MT;
+	position: relative;
+	left: 100px;
+	top: 500px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div class="icons" style="margin-top: 15%">
+	<p id="login">Welcome! How would you like to connect ?</p>
+
+		<div class="insta">
+			<a href="/auth/instagram"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/instagram.png" class="insta"/></a>
+			<!-- <div class="cap1"><p>Connect my Instagram</p></div> -->
+		</div>
+		
+		<div class="fb">
+			<a href="/auth/facebook"> <img src="http://nationalevents.cityofhope.org/images/content/pagebuilder/facebook-icon.png" class="fb"/></a>
+			<!-- <div class="cap2"><p>Connect my Facebook</p></div> -->
+		</div>
+
+
+	<!-- <p style="clear:both;"> -->
+
+		
+</div>
+
+
+</body>
